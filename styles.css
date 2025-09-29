@@ -1,7 +1,8 @@
 /* Global styling */
 body {
+  background-image: url('img/background.jpg');
+  background-size: cover;
   font-family: Arial, sans-serif;
-  background-color: #e0e8f8;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@ section {
   background-color: white;
   padding: 1.5rem 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 450px;
   width: 100%;
 }
