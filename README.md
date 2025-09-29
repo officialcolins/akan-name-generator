@@ -29,7 +29,7 @@ Installation
 4.	Open the project:
 o	Double-click index.html to open it in your browser.
 o	Alternatively, use a local server (e.g., VS Code Live Server).
-🧪 BDD (Behavior-Driven Development)
+BDD (Behavior-Driven Development)
 Scenario	Given	When	Then
 Valid date & gender	A user enters a valid birthdate and selects a gender	They click the “Get Akan Name” button	The app displays their Akan name with the correct day
 Invalid date	A user enters an invalid date (e.g., 31/02/2020)	They click the button	An alert notifies them to enter a valid date
