@@ -1,6 +1,6 @@
 document.getElementById('akanForm').addEventListener('submit', function (e) {
   e.preventDefault();
-  
+
 
   const birthdateInput = document.getElementById('birthdate').value;
   const gender = document.querySelector('input[name="gender"]:checked');
@@ -30,6 +30,6 @@ document.getElementById('akanForm').addEventListener('submit', function (e) {
     akanName = femaleNames[dayOfWeek];
   }
 
-  document.getElementById('dayOfWeek').innerText = days[dayOfWeek];
+  document.getElementById('dayOfWeek').innerText = days[dayOfWeek]; 
   document.getElementById('akanName').innerText = akanName;
 });
