@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Akan Name Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Akan Name Calculator</h1>
+        <p>Discover your Akan name based on the day of the week you were born.</p>
+    </header>
+
+    <main>
+        <section>
+            <form id="akanForm">
+                <fieldset>
+                    <legend>Date of Birth</legend>
+                    <label for="birthdate">Select your birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                </fieldset>
+
+                <button type="submit">Get Akan Name</button>
+            </form>
+        </section>
+
+        <section id="result-section">
+            <h2>Result</h2>
+            <p><strong>Day of Birth:</strong> <span id="dayOfWeek"></span></p>
+            <p><strong>Your Akan Name:</strong></p>
+            <p id="akanName" class="akan-name"></p>
+        </section>
+    </main>
+
+    <footer>
+        <small>© 2025 Akan Name Calculator by @officialcollins</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
