@@ -14,11 +14,11 @@ header {
   text-align: center;
   padding: 1.5rem;
   background-color: #0263ca;
-  color: rgb(244, 233, 233);
+  color: rgb(255, 255, 255);
 }
 
 header p {
-  max-width: 600px;
+  max-width: 601px;
   margin: 0.5rem auto 0;
   font-size: 14px;
 }
@@ -34,7 +34,7 @@ main {
 }
 
 section {
-  background-color: rgb(239, 235, 235);
+  background-color: rgb(203, 202, 202);
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
