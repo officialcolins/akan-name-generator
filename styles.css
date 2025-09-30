@@ -1,3 +1,18 @@
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
 /* Global styling */
 body {
   background-image: url('img/background.jpg');
