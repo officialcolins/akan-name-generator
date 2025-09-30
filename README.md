@@ -10,6 +10,7 @@ Author Information
   Name:   Collins Kiprop
   GitHub:   https://github.com/officialcolins
   Email:   colins079@gmail.com
+  Live link on github pages : https://officialcolins.github.io/akan-name-generator/
 
 
 Setup Instructions
